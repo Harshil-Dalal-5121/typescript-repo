@@ -1,0 +1,20 @@
+.container {
+    height: 54vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.loading-container {
+    height: 54vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 23vh;
+    overflow-y: auto
+}

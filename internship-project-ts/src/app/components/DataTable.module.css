@@ -1,0 +1,12 @@
+.loading-container {
+    height: 54vh !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    height: 54vh !important;
+    padding: 0 1em !important;
+
+}
