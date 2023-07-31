@@ -1,0 +1,19 @@
+.counter-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.input-box>input {
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
