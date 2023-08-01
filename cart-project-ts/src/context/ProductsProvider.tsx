@@ -36,7 +36,6 @@ export const ProductsProvider = ({ children }: ChildrenType): ReactElement => {
     fetchProducts().then((products) => setProducts(products));
   }, []);
 
-  console.log(products);
   return (
     <ProductContext.Provider value={{ products }}>
       {children}

@@ -9,6 +9,14 @@
     display: flex;
 }
 
+.productList {
+    display: flex;
+}
+
+.product {
+    margin: 0 20px;
+}
+
 .products {
     justify-content: center;
     align-items: center;
@@ -17,4 +25,10 @@
 .cart {
     justify-content: space-around;
     align-items: center;
+}
+
+.btn-add {
+    height: 5vh;
+    width: 10vw;
+    border-radius: 10px;
 }

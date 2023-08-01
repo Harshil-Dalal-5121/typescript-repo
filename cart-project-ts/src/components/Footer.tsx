@@ -1,5 +1,5 @@
 import React from "react";
-import UseCart from "../hooks/UseCart";
+import UseCart from "../hooks/useCart";
 
 type FooterProps = {
   viewCart: boolean;

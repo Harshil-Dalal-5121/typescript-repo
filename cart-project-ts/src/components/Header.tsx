@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import Nav from "./Nav";
-import UseCart from "../hooks/UseCart";
+import UseCart from "../hooks/useCart";
 
 type HeaderProps = {
   viewCart: boolean;
