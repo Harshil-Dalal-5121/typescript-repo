@@ -1,0 +1,20 @@
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(330deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: aliceblue
+}
+
+.footer {
+    display: flex;
+}
+
+.products {
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    justify-content: space-around;
+    align-items: center;
+}
