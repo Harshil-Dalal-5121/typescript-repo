@@ -1,12 +1,15 @@
 .App-header {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(330deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-    color: aliceblue
+    color: aliceblue;
+    margin-bottom: 5vh;
 }
 
 .footer {
     display: flex;
+
 }
 
 .productList {
@@ -31,4 +34,13 @@
     height: 5vh;
     width: 10vw;
     border-radius: 10px;
+}
+
+.cart-list-item {
+    list-style-type: none;
+    margin: 0 20px
+}
+
+.cart-list {
+    display: flex;
 }

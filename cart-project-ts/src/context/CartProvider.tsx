@@ -46,6 +46,7 @@ const reducer = (
 
       return { ...state, cart: [...filterCart, { sku, name, price, qty }] };
     }
+
     case REDUCER_ACTION_TYPE.REMOVE: {
       if (!action.payload) throw new Error("action.payload missing in REMOVE");
       const { sku } = action.payload;
@@ -53,8 +54,10 @@ const reducer = (
       const filterCart: CartItemType[] = state.cart.filter(
         (item) => item.sku !== sku
       );
+
       return { ...state, cart: [...filterCart] };
     }
+
     case REDUCER_ACTION_TYPE.QUANTITY: {
       if (!action.payload)
         throw new Error("action.payload missing in QUANTITY");
@@ -81,6 +84,7 @@ const reducer = (
         cart: [...filterCart, updatedItem],
       };
     }
+
     case REDUCER_ACTION_TYPE.SUBMIT: {
       return { ...state, cart: [] };
     }
